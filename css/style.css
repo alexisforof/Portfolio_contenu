@@ -1,7 +1,10 @@
+
 /* GENERAL */
 body{
     font-family: 'Lato', sans-serif;
+    
 }
+
 h1,h2,h3,h4,h5,h6{
     font-weight: bold;
 }
@@ -45,12 +48,17 @@ section .heading h2{
     letter-spacing: 4px;
     text-transform: uppercase;
     font-weight: bold;
+    
 }
-.nav-pills .nav-link{
+ .nav-link{
     color: #fff !important;
     text-align: center;
 }
-.nav-pills .nav-link.active,  .nav-pills .nav-link:hover{
+.nav-link:hover{
+    color: black !important;
+    text-align: center;
+}
+.nav-pills .nav-link.active{
     color: #d82c2e !important;
     background-color: #fff !important;
 }
@@ -326,3 +334,4 @@ footer h5{
     color: #fff;
     font-weight: normal;
 }
+
